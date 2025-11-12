@@ -1,1 +1,23 @@
-/* Add CSS Styling */
+/* All odd-numbered <p> elements share this class */
+.odd {
+  background-color: lightpink;
+  font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+
+/* Second element - unique ID */
+#second {
+  color: blue;
+  font-size: 36px;
+}
+
+/* Third element has an extra class to increase font size */
+.large {
+  font-size: 24px;
+}
+
+/* Fourth element - unique ID */
+#fourth {
+  background-color: lightgreen;
+  font-size: 24px;
+  font-weight: bold;
+}
